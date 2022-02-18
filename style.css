@@ -1,0 +1,33 @@
+html,
+body {
+ font-family: 'Courier New', Courier, monospace;
+}
+
+#map {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.ol-mouse-position {
+  top: 97%;
+  right: 20%;
+  position: absolute;
+}
+
+.layer-switcher.shown {
+  max-height: 465px;
+}
+
+#legend {
+  z-index: 11;
+  padding: 4px 8px;
+  border: 2px solid grey;
+  position: absolute;
+  bottom: 0px;
+  height: 50%;
+  overflow: scroll;
+  width: 15%;
+  right: 0%;
+  background-color: #ffffff;
+}
